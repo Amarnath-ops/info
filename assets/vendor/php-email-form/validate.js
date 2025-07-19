@@ -7,6 +7,7 @@
             let name = document.getElementById("name-field").value;
             let email = document.getElementById("email-field").value;
             let errorMessage=document.getElementById("error-message");
+            let sentMessage=document.getElementById("sent-message");
           
 
             // Regular Expressions for validation
@@ -37,7 +38,7 @@
         
 
           
-            alert("Form submitted successfully!");
+            sentMessage.style.display="block";
 
         
         });
